@@ -4,8 +4,9 @@
     --color-red: #F03C42;
     --color-white: #FFFFFF;
     --color-black: #000000;
-    --bg-blue: #222374;
-    --text-gray: #CCCCCC;  
+    --color-blue: #222374;
+    --bg-light-gray: #CCCCCC;  
+    --text-gray:  #CCCCCC; 
 }
 
 * {
@@ -17,9 +18,10 @@
 header {
     background-color: var(--color-red);
     height: 100px;
-    width: 1200px;
+    width: 960px;
     display: flex;
-    align-items: center;
+    align-items: enter;
+   
 
     
 }
@@ -27,6 +29,11 @@ nav h1{
     color: var(--color-white);
     font-size: 18px;
     
+}
+nav {
+    color: var(--color-white);
+    font-size: 14px;
+   
 }
 
 .container{
@@ -36,11 +43,85 @@ nav h1{
 
 }
 #space{
-    color: var(--color-white);
+    background-color: var(--color-blue);
+    height: 418px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.space-card-1 {
+    background-color: var(--bg-light-gray);
+    height: 127px;
+    width: 960px;
+    border-radius: 8px;
+    padding: 20 120px;
+    
+}
+
+.space-card-2 {
+    background-color: var(--bg-light-gray);
+    height: 127px;
+    width: 960px;
+    border-radius: 8px;
+    padding: 20 120px;
+}
+   
+.space-card h3 {
+    font-size: 20px;
+    color: var(--color-black);
+    padding: 20 20px;
+
+}
+.space-card p{
+    font-size: 14px;
+    color: var(--color-black);
+    padding: 67 20px;
+    display: flex;
+    align-items: center;
+}
+
+.modalities-card {
+    background-color: var(--color-white);
+    height: 880;
+    width: 1200px;
+}
+
+
+.modalities-card-h2 {
     font-size: 32px;
+    color: var(--color-red);
+    display: flex;
+    align-items: center;
+    width: 204px;
+    height: 44px;
+    
 }
-.space-card{
-    background-color: #CCCCCC;
+.modalities-card-description {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    width: 960px;
+    height: 106px;
 }
+.modalities-card-description-1 {
+    font-size: 20px;
+    color: var(--color-white);
+
+}
+.modalities-card-description-p {
+    font-size: 14px;
+    color: var(--color-white)
+}
+
+footer {
+    background-color: var(--color-black);
+    height: 262px;
+    width: 1200px;
+    color: var(--color-white);
+    align-items: center;
+}
+    
 
 
